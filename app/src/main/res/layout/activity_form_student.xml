@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormStudent">
+
+    <Button
+        android:id="@+id/form_btn_cancle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_bg_success"
+        android:text="Cancle"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/form_email"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/form_email"
+        app:layout_constraintTop_toBottomOf="@+id/form_btn_save" />
+
+    <EditText
+        android:id="@+id/form_fname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/text_bg"
+        android:ems="10"
+        android:hint="FirstName"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/form_lName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/text_bg"
+        android:ems="10"
+        android:hint="LastName"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/form_fname"
+        app:layout_constraintStart_toStartOf="@+id/form_fname"
+        app:layout_constraintTop_toBottomOf="@+id/form_fname" />
+
+    <EditText
+        android:id="@+id/form_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/text_bg"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/form_lName"
+        app:layout_constraintStart_toStartOf="@+id/form_lName"
+        app:layout_constraintTop_toBottomOf="@+id/form_lName" />
+
+    <Button
+        android:id="@+id/form_btn_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_bg_success"
+        android:text="save"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/form_email"
+        app:layout_constraintStart_toStartOf="@+id/form_email"
+        app:layout_constraintTop_toBottomOf="@+id/form_email" />
+</androidx.constraintlayout.widget.ConstraintLayout>
