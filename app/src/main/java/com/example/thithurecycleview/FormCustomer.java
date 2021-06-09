@@ -44,9 +44,9 @@ public class FormCustomer extends AppCompatActivity {
         }
 
         if (customer.getId() == 0)
-            btnSave.setText("Thêm");
+            btnSave.setText("ADD");
         else
-            btnSave.setText("Cập nhật");
+            btnSave.setText("UPDATE");
 
 
         btnSave.setOnClickListener(v -> {

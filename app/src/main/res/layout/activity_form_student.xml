@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FormStudent">
+    tools:context=".FormCustomer">
 
     <Button
         android:id="@+id/form_btn_cancle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:background="@drawable/btn_bg_success"
+        android:background="@drawable/btn_bg_primary"
         android:text="Cancle"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/form_email"
@@ -74,7 +74,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:background="@drawable/btn_bg_success"
+        android:background="@drawable/btn_bg_primary"
         android:text="save"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/form_email"
